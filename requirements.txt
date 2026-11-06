@@ -1,0 +1,11 @@
+torch>=2.2
+transformers>=4.44
+sentence-transformers>=3.0
+gradio>=4.40
+scikit-learn
+matplotlib
+numpy
+pandas
+pillow
+requests
+huggingface_hub
