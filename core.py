@@ -16,7 +16,7 @@ from PIL import Image
 from transformers import CLIPModel, CLIPProcessor
 
 ROOT = Path(__file__).parent
-   PHOTO_DIR = ROOT / "photos" if (ROOT / "photos" / "img_0000.jpg").exists() else ROOT
+PHOTO_DIR = ROOT / "photos" if (ROOT / "photos" / "img_0000.jpg").exists() else ROOT
 EMB_PATH = ROOT / "assets" / "embeddings.npy"
 META_PATH = ROOT / "assets" / "paths.json"
 
